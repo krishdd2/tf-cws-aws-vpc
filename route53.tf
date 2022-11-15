@@ -30,7 +30,7 @@ resource "aws_route53_record" "www" {
   name    = "www.kk-usa.com"
   type    = "A"
   ttl     = 300
-  records = [10.0.0.100]
+  records = ["10.0.0.100"]
 }
 # To crate CNAME for above A record WWW
 resource "aws_route53_record" "www_CNAME" {
