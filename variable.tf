@@ -5,9 +5,4 @@ variable "region" {
   description = "Provide the region to deploy the VPC in"
   default     = "us-west-2"
 }
-variable "aws_access_key" {
-  aws_access_key = ""
-  aws_secret_key = " "
-}
 
-  
