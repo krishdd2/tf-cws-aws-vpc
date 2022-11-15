@@ -1,16 +1,16 @@
-provider "aws" {
-  region = "us-west-2"
-  default_tags {
-    tags = {
-      owner = "kk"
-      github_profile = "url"
-      udemy_profile = "url" 
-      about_me = "url"
-      youtube_profile = "url"
-      buy_me_a_coffee = "url"
-    }
-  }
-} 
+#provider "aws" {
+#  region = "us-west-2"
+#  default_tags {
+#    tags = {
+#      owner = "kk"
+#      github_profile = "url"
+#      udemy_profile = "url" 
+#      about_me = "url"
+#      youtube_profile = "url"
+#      buy_me_a_coffee = "url"
+#    }
+#  }
+#} 
 ########################### VPC ###########################
 resource "aws_vpc" "kk-sbx-vpc" {
   cidr_block       = "10.30.0.0/16"
